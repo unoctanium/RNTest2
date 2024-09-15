@@ -4,7 +4,7 @@ import { Layout, Text } from '@ui-kitten/components';
 const HomeScreen = () => {
 	return(
 	  <Layout style={{flex: 1, justifyContent: 'center', alignItems: 'center'}}>
- 	   <Text category='h1'>HOME</Text>
+ 	   <Text style={{ userSelect: "none" }} category='h1'>HOME</Text>
 	  </Layout>
 	);
 };
